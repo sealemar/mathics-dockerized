@@ -19,6 +19,11 @@ This environment runs through an entrypoint that supports two modes:
 web-ui mode and command-line mode can run simultaneously in two separate docker containers. Simply run container in one mode first and another container in the other mode.
 
 
+### entrypoint parameters
+
+See `docker-compose` and `docker` sections below, which explain how to run a mathics container. Mathics container runs through the entrypoint. Run the a container with `--help` at the end to see a complete list of options supported by the container.
+
+
 ### docker-compose
 
 docker-compose will pull all necessary images and build the target image automatically before the first run.
